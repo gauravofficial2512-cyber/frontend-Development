@@ -1,0 +1,113 @@
+.board{
+    
+    display:flex;
+    height:800px;
+    width:800px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-evenly;
+    margin: auto;
+    box-shadow: 4px 4px 4px black;
+}
+.box1{
+    height:100px;
+    width:100%;
+    
+    display :flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+
+}
+.box2{
+    height:100px;
+    width:100%;
+    
+    display :flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+
+}
+.box3{
+    height:100px;
+    width:100%;
+    
+    display :flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+
+}
+.box4{
+    height:100px;
+    width:100%;
+    
+    display :flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+
+}
+.box5{
+    height:100px;
+    width:100%;
+    
+    display :flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+
+}
+.box6{
+    height:100px;
+    width:100%;
+    
+    display :flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+
+}
+.box7{
+    height:100px;
+    width:100%;
+    
+    display :flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+
+}
+.box8{
+    height:100px;
+    width:100%;
+    
+    display :flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+
+}
+.square{
+    width:100px;
+    height:100%;
+    
+
+}
+.box1 .square:nth-of-type(odd){
+    background-color: black;
+}
+.box2 .square:nth-of-type(even){
+    background-color: black;
+}
+.box3 .square:nth-of-type(odd){
+    background-color: black;
+}
+.box4 .square:nth-of-type(even){
+    background-color: black;
+}
+.box5 .square:nth-of-type(odd){
+    background-color: black;
+}
+.box6 .square:nth-of-type(even){
+    background-color: black;
+}
+.box7 .square:nth-of-type(odd){
+    background-color: black;
+}
+.box8 .square:nth-of-type(even){
+    background-color: black;
+}

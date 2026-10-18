@@ -1,0 +1,15 @@
+.container{
+    height:300px;
+    width:80%;
+    margin:10px auto;
+    border:solid black 2px;
+    display:flex;
+    flex-direction: column;
+}
+div{
+    height:50px;
+    width: 100%;
+    color:white;
+    text-align: center;
+    font-size: 1.3em;
+}

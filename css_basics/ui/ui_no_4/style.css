@@ -1,0 +1,61 @@
+body{
+    background-color: bisque;
+}
+.parent{
+    font-size: 0;
+
+}
+.container1{
+    margin:auto;
+    position:relative;
+    padding: 0px;
+   height:400px;
+   width: 300px;
+   display:inline-block;
+
+}
+.container2{
+    position: relative;
+    padding:0px;
+    height:400px;
+    width: 300px;
+    display:inline-block;
+    margin-left: 0;
+    background-color: rgb(244, 244, 190);
+
+}
+.container2 h1{
+    position:absolute;
+    top:20px;
+    left:70px;
+    font-size:30px;
+}
+.container2 p{
+    position:absolute;
+    font-size: 16px;
+    top:120px;
+    left:50px;
+}
+.container2 .price{
+    position:absolute;
+    font-size:30px;
+    top:250px;
+    left:50px;
+    display:inline-block;
+}
+.container2 button{
+    position:absolute;
+    top:270px;
+    left:120px;
+    height:40px;
+    width: 150px;
+    border-radius: 30px;
+    color:white;
+    background-color:rgb(72, 227, 176);
+    transition-property: box-shadow;
+    transition-duration: 1s;
+
+}
+.container2 button:hover{
+    box-shadow: 10px 10px 4px black;
+}

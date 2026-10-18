@@ -1,0 +1,41 @@
+h1{
+    margin-left:20px;
+}
+body{
+    background-color: rgb(237, 122, 237);
+}
+.container{
+    width: 400px;
+    border:solid black 2px;
+    border-radius: 20px;
+
+    margin:auto;
+    background-color: white;
+}   
+label{
+    text-align: center;
+    font-size:1.5em;
+    color:rgb(20, 20, 244);
+    margin-bottom: 20px;
+    margin-left:150px;
+    
+}
+input{
+    margin-top:20px;
+    margin-bottom:20px;
+    width:360px;
+    height:30px;
+    margin-left: 20px;
+    border-radius: 30px;
+    transition-property: transform;
+    transition-duration: 1ms;
+}
+button{
+    width:360px;
+    height:40px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    border-radius:30px;
+    background-color: blue;
+    color:white;
+}
