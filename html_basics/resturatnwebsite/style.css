@@ -1,0 +1,19 @@
+h1,h2{
+    text-align:center;
+}
+.logo{
+    position: absolute;
+    right:0;
+    top:0;
+}
+
+article{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+.dict{
+    display: block;
+    margin: 0 auto;
+  
+}
